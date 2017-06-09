@@ -1,0 +1,156 @@
+﻿element.style {
+    background-image: url(http://redvi.github.io/voyager/assets/images/rails.jpg);
+}
+.sidebar
+{
+    width: 35%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-attachment: scroll;
+    z-index: 200;
+    display: block;
+}
+.sidebar
+{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    font-size: 17px;
+    color: #222;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+.cover {
+    height: 100%;
+    width:100%;
+}
+.cover {
+    transition: all 0.8s ease 0s;
+    text-align: center;
+    position: relative;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.75)) repeat scroll 0% 0% transparent;
+}
+.cover-text {
+    color: #fff;
+    text-shadow: 2px 0 5px #333;
+    position: absolute;
+    bottom: 20%;
+    width: 80%;
+    left: 10%;
+}
+.heading {
+    font-size: 2.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: .67em 0;
+}
+#shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 1000;
+}
+.content-wrapper {
+    width: 62%;
+    max-width: 740px;
+    margin-left: 38%;
+}
+.main-header {
+    position: static;
+}
+.main-header {
+    background-color: #fdfdfd;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #ddd;
+}
+#menu-checkbox {
+    display: none;
+}
+.nav-main {
+    padding: 0;
+    text-align: left;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.nav-main
+{
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+.center-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.content-wrapper {
+    width: 62%;
+    max-width: 740px;
+    margin-left: 38%;
+}
+main {
+    padding-top: 1em;
+}
+.index-page {
+    position: relative;
+}
+article {
+    padding: 2em 1em;
+}
+.index-page:after {
+    content: "***";
+    position: absolute;
+    margin-top: 1em;
+    width: 100px;
+    left: 50%;
+}
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    background: transparent;
+}
+h2 {
+    font-size: 1.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+.blog-footer {
+    width: 62%;
+    max-width: 740px;
+    margin-left: 38%;
+}
+.blog-footer {
+    height: 4em;
+    margin: 5em auto 0;
+    font-size: 70%;
+    border-top: 1px solid #ddd;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5em;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
