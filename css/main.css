@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-footer {
     height: 4em;
-    margin: 5em auto 0;
+    margin: 5em 5em 0 auto ;
     font-size: 70%;
     border-top: 1px solid #ddd;
     text-transform: uppercase;
@@ -153,4 +153,10 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+pre
+{
+    font-family:Bradley Hand ITC;
+    font-size: 25px;
+    font-weight: 600;
 }

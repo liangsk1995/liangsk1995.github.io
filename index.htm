@@ -16,7 +16,7 @@
             </label>
         </nav>
     </header>
-    <aside class="sidebar" role="note" style="background-image: url(http://redvi.github.io/voyager/assets/images/rails.jpg)">
+    <aside class="sidebar" id="sbar" role="note" style="background-image: url(http://redvi.github.io/voyager/assets/images/rails.jpg)">
         <div class="cover">
             <div class="cover-text">
                 <div class="heading">
@@ -33,11 +33,22 @@
     <main class="content-wrapper">
     <article class="index-page">
     <h2><a>Recent Blog</a></h2>
-    <p>...</p>
+    <p>Eat...</p>
+    <p>Sleep...</p>
+    <p>Study...</p>
     </article>
     <article class="index-page">
     <h2><a>Welcome to my blog</a></h2>
-    <p>...</p>
+    <pre>       
+    One word is too often profaned              For me to profane it, 
+    One feeling too falsely distain'd            For thee to distain it; 
+    One hope is too like despair                 For prudence to smother, 
+    And pity from thee more dear                 Than that from another. 
+    I can not give what men call love:           But wilt thou accept not 
+    The worship the heart lifts above            And the heavens reject not,  
+    And the desire of the moth for the star,     Of the nigth for the morrow 
+    The devotion to something afar               From the sphere of our sorrow. 
+    </pre>
     </article>
     </main>
     <footer class="blog-footer content-wrapper">
@@ -45,5 +56,27 @@
             "@" <span class="full-year">2017</span> "Liang Sikai~Blog"
         </p>
     </footer>
+    <script type="text/javascript">
+        var i = 0;
+        var sidebar = document.getElementById("sbar");
+        function changeImg() {
+            i++;
+            i = i % 5;
+            switch (i) {
+                case 0:
+                    sidebar.style.backgroundImage = "url(http://redvi.github.io/voyager/assets/images/rails.jpg)"; break;
+                case 1:
+                    sidebar.style.backgroundImage = "url(img/002.jpg)"; break;
+                case 2:
+                    sidebar.style.backgroundImage = "url(img/003.jpg)"; break;
+                case 3:
+                    sidebar.style.backgroundImage = "url(img/004.jpg)"; break;
+                case 4:
+                    sidebar.style.backgroundImage = "url(img/005.jpg)"; break;
+                default:
+            }
+        }
+        var int = self.setInterval(changeImg, 3000);       
+    </script>
 </body>
 </html>
